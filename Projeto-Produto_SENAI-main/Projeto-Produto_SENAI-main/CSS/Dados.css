@@ -1,0 +1,44 @@
+ul{
+    position: relative;
+    left: 44%;
+}
+.bb{
+    border: none;
+    background-color: #004AAD;
+    height: 200px;
+    width: 250px;
+    border-radius: 25px;
+    margin-left: 670px;
+    color: white;
+    text-align: center;    
+    line-height: 30px;
+   
+}
+.all{
+    border: none;
+    background-color: white;
+    height: 240px;
+    width: 700px;
+    border-radius: 25px;
+    margin-left:200px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+.xb{
+    margin-top: 20px
+}
+body{
+    background-color: #f3f3f3;
+}
+.new{
+    border: none;
+    background-color: white;
+    height: 100px;
+    width: 700px;
+    border-radius: 25px;
+    margin-left: 200px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 30px 10px
+}

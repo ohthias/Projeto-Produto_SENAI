@@ -1,0 +1,37 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2px;
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    left:500px;
+}
+
+li{
+    float: right;
+}
+
+li a {
+    display: block;
+    color: rgb(129, 129, 129);
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ff0000;
+    border-radius: 100px;
+  }
+
+  picture{
+    display: flex;
+    
+  }
