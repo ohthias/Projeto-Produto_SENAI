@@ -59,6 +59,13 @@ a.active, a:hover{
   height: 520px;
   left: 132px;
   top: 215px;
+  transition: 2s;
+}
+
+.produto> a img:hover{
+  cursor: pointer;
+  box-shadow: 0 2px 20px 0 #ffffff, 0 4px 40px 0 #ffffff;
+  transition: 2s;
 }
 
 .produto_text{
