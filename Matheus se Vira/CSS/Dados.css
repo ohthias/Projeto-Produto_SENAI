@@ -1,0 +1,30 @@
+ul{
+    position: relative;
+    left: 44%;
+}
+.all{
+    border: none;
+    background-color: white;
+    height: 240px;
+    width: 700px;
+    border-radius: 25px;
+    margin-left:200px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    translate: 31%;
+
+}
+body{
+    background-color: #f3f3f3;
+    font-family: sans-serif;
+}
+.xb{
+    font-size: 20pt;
+}
+.bb{
+    scale: 130%;
+    margin-top: 50px;
+}
+
+    
