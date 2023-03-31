@@ -24,6 +24,7 @@ label.logo{
     padding: 0 100px;
     font-weight: bold;
     font-family: sans-serif;
+    animation: Logo 4s;
 }
 
 nav ul{
@@ -260,3 +261,12 @@ footer{
         transform: translateX(0);
     }
 }  
+
+@keyframes Logo{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
