@@ -1,18 +1,42 @@
+nav{
+    background: #f3f3f3;
+    height: 60px;
+    width: 100%;
+  }
+  
+  label.logo{
+    color: #020202;
+    font-size: 25px;
+    line-height: 60px;
+    padding: 0 100px;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  
+  nav ul li{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+  }
+  
+  nav ul li a{
+    padding: 13px 13px;
+    border-radius: 100%;
+  }
+  
+  a.active, a:hover{
+    background: #8E6BBF;
+    transition: .5s;
+  }
+
 ul{
     position: relative;
     left: 44%;
-}
-.bb{
-    border: none;
-    background-color: #004AAD;
-    height: 200px;
-    width: 250px;
-    border-radius: 25px;
-    margin-left: 670px;
-    color: white;
-    text-align: center;    
-    line-height: 30px;
-   
 }
 .all{
     border: none;
@@ -24,21 +48,19 @@ ul{
     text-align: center;
     margin-top: 20px;
     padding: 20px;
-}
-.xb{
-    margin-top: 20px
+    translate: 31%;
+
 }
 body{
     background-color: #f3f3f3;
+    font-family: sans-serif;
 }
-.new{
-    border: none;
-    background-color: white;
-    height: 100px;
-    width: 700px;
-    border-radius: 25px;
-    margin-left: 200px;
-    text-align: center;
-    margin-top: 20px;
-    padding: 30px 10px
+.xb{
+    font-size: 20pt;
 }
+.bb{
+    scale: 130%;
+    margin-top: 50px;
+}
+
+    
