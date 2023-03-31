@@ -76,7 +76,7 @@ a.active, a:hover{
   position: absolute;
   width: 370px;
   height: 42px;
-  left: 9px;
+  left: 50px;
   top: 36px;
 
   font-family: sans-serif;
@@ -122,30 +122,54 @@ a.active, a:hover{
   color: #000000;
 }
 
+.produto_text button{
+  position: absolute;
+  width: 379px;
+  height: 18px;
+  left: 49px;
+  top: 180px;
 
+  background: #711fa0;
+  border-width: 0px;
+  border-style: solid;
+  color: #ffffff;
+  width: 120px;
+  height: 30px;
+  font-family: Verdana;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 50px;
+  letter-spacing: 3px;
+  transition: 0.8s;
+}
 
-.bnt img{
+button:hover{
+  cursor: pointer;
+  background-color: rgb(183, 125, 238);
+  box-shadow: 5px 4px #4b295c;
+}
+
+.produto_text img{
   position: absolute;
   width: 25px;
   height: 25px;
-  left: 931px;
-  top: 463px;
+  left: 190px;
+  top: 185px;
 }
 
-.produto_text p{
+.produto_text pre{
   position: absolute;
-  width: 362px;
+  width: 313px;
   height: 123px;
-  left: 49px;
+  left: -50px;
   top: 227px;
-  right: 252px;
 
   font-family: sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  word-break:keep-all;
+  word-break: break-all;
 
   color: #000000;
 }
@@ -156,6 +180,7 @@ a.active, a:hover{
   height: 40;
   left: 88px;
   top: 839px;
+  margin-left:85px;
 
   background: #8E6BBF;
   border-radius: 25px;

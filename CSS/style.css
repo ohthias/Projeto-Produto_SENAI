@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 body{
     background: #EDE9F2;
 }
@@ -57,8 +58,10 @@ img.landscape{
     position: absolute;
     width: 50% 50%;
     height: 40;
-    left: 88px;
+    left: 100px;
     top: 639px;
+
+    margin-left: 50px;
 
     background: #8E6BBF;
     border-radius: 25px;
@@ -121,13 +124,14 @@ h2{
     position: absolute;
     width: 80%;
     height: 60%;
-    left: 94px;
+    left: 120px;
     top: 1104px;
 
     background: #DED0F2;
     border-radius: 25px;
 
     margin-top: 15px;
+    margin-bottom: 50px;
 }
 
 .conteiner img{
